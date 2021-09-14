@@ -5,3 +5,10 @@
 3. There are different ways to create a Vue application. I tried the simplest one that was the closest to AngularJS, since that's the framework I'm most familiar with. 
 4. The lack of something like Angular's $http  was noticable. Maybe there is a similar thing available for Vue, but I didn't find an easy way to use it.
 5. Liked how there was options for anything I wanted to do. (e.g. conditional event handler)
+
+# How to Run
+
+```
+npm install
+node index.js
+```

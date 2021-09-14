@@ -28,7 +28,7 @@ The `el` property points view at the HTML element that all of our HTML side view
 </div>
 ```
 
-The `data` property can include variables for Vue which is accessible in the HTML using `{{variableName}}`. These variables can have different types (string, boolean, array, ...). If you have a boolean variable you can show or hide an element using the `v-if` directive on an HTML tag:
+The `data` property can include variables for Vue which is accessible in the HTML page using `{{variableName}}`. These variables can have different types (string, boolean, array, ...). If you have a boolean variable you can show or hide an element using the `v-if` directive on an HTML tag:
 
 ```html
 <div v-if="show">I am visible</div>
@@ -40,7 +40,7 @@ You can also bind data to an HTML tag. For instance, variable `url: "www.google.
 <a v-bind:href="url">Click</a>
 ```
 
-Another directive in Vue is `v-for`. This can be used to iterate over items in an array. For example, when we have an array variable `users: ['john', 'mike', 'jane']`, we can use the following code to show these users dynamically:
+Another directive in Vue is `v-for`. This can be used to iterate over items in an array. For example, when we have an array variable `users: ['john', 'mike', 'jane']`, we can use the following code to bind these users in a dropdown dynamically:
 
 ```html
 <select name="users">
@@ -74,6 +74,8 @@ Another powerful directive in Vue is `v-model` which provides "two-way data bind
 <input type="text" v-model="age">
 
 ```
+
+## Exercise
 
 Make use of the Vue directives:
 
