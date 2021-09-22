@@ -21,6 +21,8 @@ let me = {};
 
 app.post('/start', (req, res) => {
   console.log( req.body );
+  me.username = req.body.username;
+  me.language = req.body.language;
   data = generateUsers();
   res.send(data);
 })
